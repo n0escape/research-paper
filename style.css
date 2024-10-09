@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+canvas{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#imgBox{
+    display: none;
+}
+
+#video1,
+#video2,
+#video3,
+#video4,
+#video5,
+#titers{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+}
+
+#unmuteButton {
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+}
+
+#sound{
+    width: 20px;
+    height: 20px;
+}
+
+audio{
+    display: none;
+}
